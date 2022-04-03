@@ -31,8 +31,9 @@ class YaUploader:
 
 
 if __name__ == '__main__':
+    yadisk_file_name = ''
     path_to_file = ''
     token = ''
     uploader = YaUploader(token)
-    result = uploader.upload_file_to_disk(path_to_file, 'test.txt')
+    result = uploader.upload_file_to_disk(path_to_file, yadisk_file_name)
 
